@@ -58,10 +58,15 @@ const HomePage = () => {
       <section id='projects'>
         <h2>Projects</h2>
         <div className='contenedor-trabajos'>
-          <div className='trabajos'></div>
-          <div className='trabajos'></div>
-          <div className='trabajos'></div>
-          <div className='trabajos'></div>
+          <div className='trabajos'>
+            <img src="/trabajo.png" id='proyecto1' alt="imagen de proyecto" />
+          </div>
+          <div className='trabajos'>
+            <img src="/trabajo.png" alt="imagen de proyecto" />
+          </div>
+          <div className='trabajos'>
+            <img src="/trabajo.png" alt="imagen de proyecto" />
+          </div>
         </div>
       </section>
       <section id='contact'>

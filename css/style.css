@@ -193,19 +193,27 @@ input[type="submit"] {
 }
 
 .contenedor-trabajos{
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-    padding: 25px;
+    display: block;
+    justify-content: left;
+    padding: 50px;
     padding-top: 0px;
 }
 
-.trabajos{
-    width: 350px;
-    height: 220px;
-    background-color: gray;
-    margin-left: 40px;
-    border-radius: 10px;
+
+/*.trabajos{
+    height: 250px;
+    width: fit-content;
+}
+
+.trabajos img{
+    border-radius: 20px;
+    height: 250px;
+    margin-top: 50px;
+}
+*/
+
+#proyecto1{
+    margin-top: 10px;
 }
 
 #mensaje{
@@ -272,16 +280,4 @@ footer h3{
     border-radius: 10px;
     margin: 10px;
 }
-
-
-
-
-
-
-
-
-  
-
-
-
 
