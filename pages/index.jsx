@@ -55,8 +55,8 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-      <section id='projects'>
-        <h2>Projects</h2>
+      <section id='works'>
+        <h2>Works</h2>
         <div className='contenedor-trabajos'>
           <div className='trabajos'>
             <img src="/trabajo.png" id='proyecto1' alt="imagen de proyecto" />
