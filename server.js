@@ -40,7 +40,7 @@ app.post('/enviar-correo', (req, res) => {
 });
 
 // Iniciar el servidor
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4000;
 app.listen(port, () => {
   console.log(`Servidor Node.js escuchando en el puerto ${port}`);
 });
