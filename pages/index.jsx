@@ -6,7 +6,7 @@ import Header from '../components/header.jsx';
 const HomePage = () => {
   return (
     <div className='contenedorPortfolio'>
-      <div className='header'>
+      <div className='header'>hola osjuhhhhhhhhhh  jua
         <Header id="home"/>
         <div className='contenedor-portada'>
           <h1>Juan cruz Leone</h1>
