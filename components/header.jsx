@@ -29,6 +29,11 @@ function Header() {
           </li>
         </ul>
       </nav>
+      <div className='contenedor-portada'>
+            <h1>Juan cruz Leone</h1>
+            <p className='subtitulo-portada'>Front end developer</p>
+          </div>
+          <div class="boton-contactame"><a href="">Contact me</a></div>
     </header>
   );
 }
