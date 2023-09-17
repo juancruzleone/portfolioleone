@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 
@@ -6,7 +7,7 @@ function Header() {
   return (
     <header>
       <div className="portada">
-        <img src="" alt="" />
+        <Image src="" alt="" />
       </div>
       <nav>
         <ul>
