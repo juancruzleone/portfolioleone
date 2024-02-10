@@ -7,7 +7,7 @@ import Skills from '../components/skills.jsx';
 import Works from '../components/works.jsx';
 import Contact from '../components/contact.jsx';
 
-const HomePage = () => {
+const HomePage = ({ darkMode, toggleDarkMode }) => {
   return (
     <div>
       <Head>
@@ -15,18 +15,17 @@ const HomePage = () => {
         <meta name="description" content="Descripción de mi página" />
       </Head>
       <div className='contenedorPortfolio'>
-        <div className='header'>
-          <Header id="home"/>
+        <div className={`header ${darkMode ? 'dark' : ''}`}>
+          <Header id="home" darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         </div>
         <AboutMe />
         <Skills />
         <Works />
         <Contact />
-        </div>
-        <Footer />
+      </div>
+      <Footer />
     </div>
   );
 };
 
 export default HomePage;
-
