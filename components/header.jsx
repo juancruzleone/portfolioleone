@@ -18,7 +18,7 @@ function Header({ darkMode, toggleDarkMode }) {
               <Link href="#about-me">About me</Link>
             </li>
             <li>
-              <Link href="#proyects">Proyects</Link>
+              <Link href="#projects">Projects</Link>
             </li>
             <li>
               <Link href="#contact">Contact</Link>

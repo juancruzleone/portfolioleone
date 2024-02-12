@@ -4,7 +4,7 @@ import Header from '../components/header.jsx';
 import Footer from '../components/footer.jsx';
 import AboutMe from '../components/aboutme.jsx';
 import Skills from '../components/skills.jsx';
-import Works from '../components/works.jsx';
+import Projects from '../components/projects.jsx';
 import Contact from '../components/contact.jsx';
 
 const HomePage = ({ darkMode, toggleDarkMode }) => {
@@ -20,7 +20,7 @@ const HomePage = ({ darkMode, toggleDarkMode }) => {
         </div>
         <AboutMe />
         <Skills />
-        <Works />
+        <Projects />
         <Contact />
       </div>
       <Footer />

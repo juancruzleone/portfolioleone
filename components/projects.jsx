@@ -1,12 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
-import Header from '../components/header.jsx';
-import Footer from '../components/footer.jsx';
+import Header from './header.jsx';
+import Footer from './footer.jsx';
 
-const Works = () => {
+const Projects = () => {
     return (
-        <section id='proyects'>
-            <h2>Proyects</h2>
+        <section id='projects'>
+            <h2>Projects</h2>
             <div className='contenedor-trabajos'>
                 <div className='trabajos' id='proyecto1'>
                     <Image src="/trabajo.png" alt="imagen de proyecto" width={400} height={400} />
@@ -37,4 +37,4 @@ const Works = () => {
     )
 }
 
-export default Works;
+export default Projects;
